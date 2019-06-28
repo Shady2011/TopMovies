@@ -24,9 +24,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements ProductAdapter.OnProductListsner {
 
-    private RecyclerView productRecycler;
+    @BindView(R2.id.products_recycler) RecyclerView productRecycler;
+    @BindView(R2.id.toolbar) Toolbar toolbar;
+
     private ProductAdapter adapter;
     private TextView rateTxt;
     private int rate = 0;
@@ -35,10 +40,10 @@ public class MainActivity extends AppCompatActivity implements ProductAdapter.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
         ImageLoaderConfiguration configuration = new ImageLoaderConfiguration.Builder(this).build();
         ImageLoader.getInstance().init(configuration);
-        productRecycler = findViewById(R.id.products_recycler);
-        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.app_name);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
