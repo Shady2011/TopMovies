@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">My Movies</string>
+    <string name="app_name">My Products</string>
+    <string name="rate">Rate</string>
+    <string name="cancel">Cancel</string>
+    <string name="random">Rate Random</string>
 </resources>
