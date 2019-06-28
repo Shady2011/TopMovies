@@ -1,4 +1,4 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import org.junit.Test;
 

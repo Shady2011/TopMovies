@@ -1,4 +1,4 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.shady.favouritemovies.model.Product;
+import com.shady.favouriteproducts.model.Product;
 
 import java.util.Collections;
 import java.util.Comparator;

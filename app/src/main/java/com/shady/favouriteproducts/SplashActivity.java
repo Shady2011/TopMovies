@@ -1,4 +1,4 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import androidx.appcompat.app.AppCompatActivity;
 

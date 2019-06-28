@@ -1,4 +1,4 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import android.content.Context;
 

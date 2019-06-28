@@ -1,6 +1,5 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
-import android.app.Activity;
 import android.content.Intent;
 
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;

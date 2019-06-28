@@ -1,4 +1,4 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.shady.favouritemovies.databinding.ProductLayoutBinding;
-import com.shady.favouritemovies.model.Product;
+import com.shady.favouriteproducts.databinding.ProductLayoutBinding;
+import com.shady.favouriteproducts.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;

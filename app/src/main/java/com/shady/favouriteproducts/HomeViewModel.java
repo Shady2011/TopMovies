@@ -1,9 +1,9 @@
-package com.shady.favouritemovies;
+package com.shady.favouriteproducts;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.shady.favouritemovies.model.Product;
+import com.shady.favouriteproducts.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.shady.favouritemovies.model;
+package com.shady.favouriteproducts.model;
 
 public class Product {
     private String title;

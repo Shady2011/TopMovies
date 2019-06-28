@@ -7,7 +7,7 @@
 
         <variable
             name="productModel"
-            type="com.shady.favouritemovies.model.Product"/>
+            type="com.shady.favouriteproducts.model.Product"/>
     </data>
 
 <androidx.constraintlayout.widget.ConstraintLayout
