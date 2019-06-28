@@ -71,6 +71,13 @@ public class MainActivity extends AppCompatActivity implements ProductAdapter.On
         viewModel.getProducts();
     }
 
+//    @Test
+    private void incrementVictoryCountCallsRepository() {
+//        stubVictoryRepositoryGetVictoryCount(5) // Arrange
+//        viewModel.incrementVictoryCount() // Act
+//        verify(mockVictoryRepository).getVictoryCount() // Assert
+    }
+
     private void sortProducts() {
         List<Product> products = adapter.getProductList();
         if (rate == 0){
